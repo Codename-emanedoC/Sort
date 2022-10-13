@@ -23,9 +23,8 @@ int main() {
     sort[smallestI] = sort[index];
     sort[index] = temp;
   }
-  for (int j = 0; j < N; j++) {
+  
 
-    cout << sort[j] << " ";
-  }
-  return 0;
+    cout << sort[loc] << " "; 
+return 0;
 }
